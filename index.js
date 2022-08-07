@@ -33,6 +33,8 @@ let heightOfGrass = horizon
 
 tile('/assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
 tile('/assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
+
+
 // let greenCharacter = document.createElement('img')
 // greenCharacter.src = 'assets/green-character.gif'
 // greenCharacter.style.position = 'fixed'
@@ -68,17 +70,3 @@ newImage('assets/well.png', 500, 425)
 newItem('assets/sword.png', 500, 405)
 newItem('assets/sheild.png', 165, 185)
 newItem('assets/staff.png', 600, 100)
-
-document.body.style.backgroundImage = "url('assets/sky.png')";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundHeight = "window.innerwidth/100";
-document.body.style.backgroundHeight = "window.innerheight/100";
-document.body.style.backgroundPosition="bottom"; 
-        
-
-
-// document.body.style.backgroundImage = "url('assets/grass.png')";
-// document.body.style.backgroundRepeat = "no-repeat";
-// document.body.style.backgroundHeight = "540px";
-// document.body.style.backgroundPosition="bottom"; 
-        
