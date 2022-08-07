@@ -1,7 +1,7 @@
 function tile(url, left, bottom, width, height){
     for(let h = 0; h < height; h++) {
         for(let w = 0; w < width; w++) {
-            newImage(url, left + j*100, bottom + i*100)
+            newImage(url, left + w*100, bottom + h*100)
         }
     }
 }
