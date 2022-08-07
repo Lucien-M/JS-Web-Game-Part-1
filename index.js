@@ -1,6 +1,6 @@
 function tile(url, left, bottom, width, height){
-    for(let i = 0; i < height; i++) {
-        for(let j = 0; j < width; j++) {
+    for(let h = 0; h < height; h++) {
+        for(let w = 0; w < width; w++) {
             newImage(url, left + j*100, bottom + i*100)
         }
     }
