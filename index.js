@@ -1,7 +1,7 @@
 function tile(url, left, bottom, width, height){
-    for(let h = 0; h < height; h++) {
-        for(let w = 0; w < width; w++) {
-            newImage(url, left + w*100, bottom + h*100)
+    for(let i = 0; i < height; i++) {
+        for(let j = 0; j < width; j++) {
+            newImage(url, left + j*100, bottom + i*100)
         }
     }
 }
@@ -31,8 +31,8 @@ let horizon = window.innerHeight / 1.75
 let heightOfsky = window.innerHeight - horizon
 let heightOfgrass = horizon
 
-tile('/assets/sky.png', 0, horizon, window.innerWidth/100, heightOfsky/100)
-tile('/assets/grass.png', 0, 0, window.innerWidth/100, heightOfgrass/100)
+tile('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfsky/100)
+tile('assets/grass.png', 0, 0, window.innerWidth/100, heightOfgrass/100)
 
 
 // let greenCharacter = document.createElement('img')
